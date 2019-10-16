@@ -1,0 +1,27 @@
+.landing-about-parent{
+    padding: 5rem;
+    height:fit-content;
+    border:2px solid green;
+}
+.landing-about-img-parent{
+    height:25rem;
+    border:2px solid red;
+    position: relative;
+}
+.landing-about-img-parent-content{
+    position: absolute;
+    right: 0;
+    left: 60%;
+}
+.landing-about-img-parent2{
+display: flex;
+height: 15rem;
+border:2px solid blue;
+
+}
+.landing-about-img-parent2-child{
+width: 25%;
+height: 15rem;
+border:2px solid orange;
+
+}

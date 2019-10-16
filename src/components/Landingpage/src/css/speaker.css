@@ -1,0 +1,28 @@
+.landing-speaker-content-parent{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 2rem;
+}
+.landing-speaker-content-child{
+width: 30%;
+height: 20rem;
+border: 2px solid green;
+}
+
+.landing-speaker-parent{
+    padding:2rem 5rem;
+    height:fit-content;
+    border:2px solid green;
+    margin-top: 5rem;
+    background: #f7f7f7;
+}
+.landing-speaker-parent-heading-line{
+    height:.5rem;
+    width: 7rem;
+    background: #54565b;
+}
+.landing-speaker-parent-heading-content{
+    font-size: 4rem;
+    color:#54565b;
+}

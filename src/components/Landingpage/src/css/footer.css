@@ -1,0 +1,20 @@
+.landing-footer-parent{
+    background: #54565b;
+   
+}
+.landing-footer-parent-child{
+    margin-left:70%;
+    height: 15rem;
+    padding: 2rem 0;
+
+}
+
+.landing-footer-parent-heading-line{
+    height:.5rem;
+    width: 7rem;
+    background: #43caea;
+}
+.landing-footer-parent-heading-content{
+    font-size: 2rem;
+    color:#fff;
+}
