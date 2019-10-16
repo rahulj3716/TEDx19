@@ -15,7 +15,7 @@ export default class AboutusIndex extends Component {
 
     render() {
         return (
-            <div>
+            <div style={{backgroundImage: "linear-gradient(to right, #1e1e26, #291e24 57%, #341f21)"}}>
                 <section id="landing-page-navbar"> <Navbar /></section>
                 <section ><div><About /></div></section>
                 <section><div><Theme /></div></section>

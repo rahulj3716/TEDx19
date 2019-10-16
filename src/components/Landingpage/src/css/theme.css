@@ -3,7 +3,6 @@
     height:fit-content;
     border:2px solid green;
     margin-top: 5rem;
-    background: #f7f7f7;
 }
 .landing-Theme-parent-heading-line{
     height:.5rem;
@@ -12,7 +11,9 @@
 }
 .landing-Theme-parent-heading-content{
     font-size: 4rem;
-    color:#54565b;
+    color:#ffffff;
+    opacity: .8;
+    font-family: HelveticaNeue-Bold;
 }
 
 .landing-Theme-slider-parent{
