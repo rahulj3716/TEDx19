@@ -19,9 +19,13 @@
     width: fit-content;
 }
 .heading-Image{
-height: 20px;
-width: 20px;
-background: red;
+  height: 50px;
+  width: 50px;
+background:url('../images/heading.png');
 position: absolute;
-right: 0;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: right;
+right: -8px;
+top: -10px;
 }

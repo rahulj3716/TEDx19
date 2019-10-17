@@ -15,6 +15,11 @@ export default class AboutusIndex extends Component {
                         
                         </div>
                     </div>
+                    <div className="landing-about-parent-heading">
+                        5th Nov'19 &nbsp; &nbsp;  ●  &nbsp; &nbsp; MAC Audi
+                    </div>
+
+                    <button className="landing-about-button">REGISTER</button>
 
                   
                 </div>

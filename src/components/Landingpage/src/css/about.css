@@ -1,17 +1,21 @@
 .landing-about-parent{
     padding: 5rem;
     height:fit-content;
-    border:2px solid green;
+    text-align: center;
+    /* border:2px solid green; */
 }
 .landing-about-img-parent{
-    height:25rem;
-    border:2px solid red;
+    height:20rem;
+    /* border:2px solid red; */
     position: relative;
 }
 .landing-about-img-parent-content{
-    position: absolute;
-    right: 0;
-    left: 60%;
+    background: url('../images/landback.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: bottom;
+    background-size: 30%;
 }
 .landing-about-img-parent2{
 display: flex;
@@ -24,4 +28,34 @@ width: 25%;
 height: 15rem;
 border:2px solid orange;
 
+}
+
+.landing-about-parent-heading{
+    font-family: HelveticaNeue-light;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+.landing-about-button{
+    width: 144px;
+    height: 48px;
+    border: solid 1px #ee3322;
+    background: none;
+    font-family: HelveticaNeue-light;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ee3322;
+  margin-top: 5rem;
 }

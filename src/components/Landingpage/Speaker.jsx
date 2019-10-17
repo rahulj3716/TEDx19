@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Icon } from "antd";
 import "antd/dist/antd.css";
 import "./src/css/speaker.css";
-
+import Heading from './Heading';
 import { speakers } from "./content";
 import Image from "./src/images/download.jpg";
 
@@ -67,7 +67,7 @@ export default class SpeakerIndex extends Component {
       <div className="landing-speaker-parent">
         <div className="background"></div>
         <div className="landing-speaker-parent-header">
-          <div className="landing-speaker-parent-heading">SPEAKERS</div>
+          <div className="landing-speaker-parent-heading"><Heading text="SPEAKERS"/></div>
           <div className="landing-speaker-parent-header-content">
             {speakers.map(item => {
               return (

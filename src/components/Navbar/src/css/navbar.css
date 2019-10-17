@@ -153,6 +153,7 @@
     font-weight: 600;
     font-size: 14px;
     color: #fff;
+    letter-spacing: .1rem;
     transition: all 0.3s ease-in-out;
     padding-left:2px;
     padding-right:2px; 
