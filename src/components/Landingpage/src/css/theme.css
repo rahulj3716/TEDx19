@@ -1,7 +1,7 @@
 .landing-Theme-parent{
     padding:2rem 18rem 2rem 10rem;
     height:fit-content;
-    border:2px solid green;
+    /* border:2px solid green; */
     margin-top: 5rem;
 }
 .landing-Theme-parent-heading-line{
@@ -23,7 +23,7 @@ margin-top: 2rem;
 }
 .landing-Theme-slider-parent-pic{
 width: 30%;
-border:2px solid red;
+/* border:2px solid red; */
 height: 20rem;
 
 }
@@ -41,7 +41,7 @@ letter-spacing: normal;
 text-align: justify;
 color: #ffffff;
 
-border:2px solid blue;
+/* border:2px solid blue; */
 
 }
 .ant-carousel .slick-slide {
