@@ -1,9 +1,8 @@
 .landing-Theme-parent{
-    padding:2rem 5rem;
+    padding:2rem 18rem 2rem 10rem;
     height:fit-content;
     border:2px solid green;
     margin-top: 5rem;
-    background: #f7f7f7;
 }
 .landing-Theme-parent-heading-line{
     height:.5rem;
@@ -12,13 +11,14 @@
 }
 .landing-Theme-parent-heading-content{
     font-size: 4rem;
-    color:#54565b;
+    color:#ffffff;
+    opacity: .8;
+    font-family: HelveticaNeue-Bold;
 }
 
 .landing-Theme-slider-parent{
 display: flex;
 flex-direction: row;
-height: 20rem;
 margin-top: 2rem;
 }
 .landing-Theme-slider-parent-pic{
@@ -30,7 +30,16 @@ height: 20rem;
 
 .landing-Theme-slider-child{
 width: 70%;
-height: 20rem;
+opacity: 0.8;
+font-family: HelveticaNeue-light;
+font-size: 1.42rem;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.4;
+letter-spacing: normal;
+text-align: justify;
+color: #ffffff;
 
 border:2px solid blue;
 
