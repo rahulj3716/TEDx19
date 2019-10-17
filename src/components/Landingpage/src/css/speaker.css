@@ -1,28 +1,199 @@
-.landing-speaker-content-parent{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin-top: 2rem;
+.landing-speaker-parent {
+  margin: 0;
+  padding: 3rem 3rem;
+  height: fit-content;
+  background-image: linear-gradient(to right, #1e1e26, #291e24 57%, #341f21);
+  opacity: 0.9;
+  position: relative;
 }
-.landing-speaker-content-child{
-width: 30%;
-height: 20rem;
-border: 2px solid green;
+.background {
+  height: 100vh;
+  width: 45rem;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  background-image: url("../images/download.jpg");
+  opacity: 0.2;
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.landing-speaker-parent-header {
+  margin: auto;
+  width: 90%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing-speaker-parent-heading {
+  width: fit-content;
+  font-size: 3rem;
+  opacity: 0.8;
+  font-family: HelveticaNeue;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3rem;
+  color: #ffffff;
+}
+.landing-speaker-parent-header-content {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.landing-speaker-parent-header-content > div {
+  cursor: pointer;
+  height: 80%;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing-speaker-parent-header-content-speakers {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-size: 100% 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.landing-speaker-parent-header-content h1 {
+  font-family: HelveticaNeue;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.landing-speaker-content-parent {
+  height: 75vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.landing-speaker-parent{
-    padding:2rem 5rem;
-    height:fit-content;
-    border:2px solid green;
-    margin-top: 5rem;
-    background: #f7f7f7;
+.slide {
+  height: 100%;
+  width: 100%;
 }
-.landing-speaker-parent-heading-line{
-    height:.5rem;
-    width: 7rem;
-    background: #54565b;
+.slide-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.landing-speaker-parent-heading-content{
-    font-size: 4rem;
-    color:#54565b;
+.slide-image {
+  background-image: url(../images/download.jpg);
+  filter: grayscale(80%);
+  opacity: 0.8;
+  z-index: +5;
+  height: 35rem;
+  width: 35rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.slide-text {
+  height: 30rem;
+  width: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.slide-text div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.slide-text div h1:first-child {
+  transform: translateX(-2rem);
+}
+.slide-text h1 {
+  white-space: nowrap;
+  font-size: 4.8rem;
+  margin: 0;
+  color: #ffffff;
+  font-family: Sequel100-85;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+}
+.slide-text h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: HelveticaNeue;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+}
+.slide-text p {
+  margin: 0;
+  opacity: 0.8;
+  font-family: HelveticaNeue;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.2s;
+}
+.active {
+  box-shadow: 0 0 10px red;
+}
+.active-text {
+  color: red !important;
+}
+@keyframes fade {
+  from {
+    opacity: 0.2;
+    transform: translateX(50vw);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.landing-speaker-content-icon svg {
+  width: 3rem;
+  height: 3rem;
+  color: #ffffff;
 }
