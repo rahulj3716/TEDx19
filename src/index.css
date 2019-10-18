@@ -1,8 +1,8 @@
 
 @font-face {
-        font-family: "HelveticaNeue-regular";
+        font-family: "HelveticaNeue-Regular";
         
-        src:url('./fonts/HelveticaNeue.ttf')  format('truetype');
+        src:url('./fonts/HelveticaNeue-Regular.otf')  format('truetype');
     
         }
 @font-face {
@@ -15,7 +15,7 @@
 @font-face {
         font-family: "HelveticaNeue-Bold";
         
-        src:url('./fonts/HelveticaNeue-Bold.ttf')  format('truetype');
+        src:url('./fonts/HelveticaNeue-Bold.otf')  format('truetype');
     
         }
 
