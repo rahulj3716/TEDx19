@@ -1,0 +1,90 @@
+.member-parent {
+	margin: 10% 10% 30% 10%;
+	width: 320px;
+	height: 280px;
+	border-radius: 3px;
+	background-color: #100f15;
+	background: url('../images/imgback.png');
+	background-size: cover;
+}
+
+.member-image-container {
+	width: 177px;
+	height: 176.2px;
+	position: relative;
+	margin: 0 0 -20% 0;
+}
+
+.red-border {
+	width: 174px;
+	height: 174px;
+	position: absolute;
+	border-radius: 2px;
+	border: solid 1px #ee3322;
+	left: 40%;
+	top: -50%;
+}
+
+.member-image {
+	padding: 30%;
+	background: url('../images/gates.jpg');
+	background-size: cover;
+	width: 170px;
+	height: 170px;
+	border: solid 9px #000000;
+}
+
+.member-info-name {
+	text-align: center;
+	height: 21px;
+	font-family: "HelveticaNeue", "sans-serif";
+	font-size: 18px;
+	font-weight: 900;
+	font-stretch: condensed;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 4px;
+	color: #ffffff;
+
+}
+
+.member-info-position {
+	text-align: center;
+	height: 19px;
+	font-family: "HelveticaNeue", "sans-serif";
+	font-size: 16px;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ee3322;
+}
+
+.member-info-quote {
+	text-align: center;
+	height: 48px;
+	padding: 0 5%;
+	opacity: 0.8;
+	font-family: "HelveticaNeue-regular";
+	font-size: 16px;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	line-height: 1.5;
+	letter-spacing: 0.32px;
+	color: #ffffff;
+}
+
+.member-info-quote span {
+	width: 12px;
+	height: 28px;
+	font-family: HelveticaNeue-regular;
+	font-size: 24px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.32px;
+	text-align: center;
+clipolor: #ee3322;
+}
