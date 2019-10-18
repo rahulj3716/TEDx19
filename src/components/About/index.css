@@ -1,0 +1,114 @@
+.about-page {
+  background-image: linear-gradient(to right, #1e1e26, #291e24 57%, #341f21);
+}
+#about-page-navbar {
+  padding: 0 10rem;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-page-heading p {
+  font-family: HelveticaNeue-Bold;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: 0.1rem;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.about-section1,
+.about-section2 {
+  padding: 5rem 0 5rem 0;
+  height: fit-content;
+  position: relative;
+  margin-bottom: 5rem;
+}
+.about-section3 {
+  padding: 5rem 0 0 0;
+  height: fit-content;
+  position: relative;
+}
+.about-section1-background {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  height: 100%;
+  width: 35vw;
+  background-image: url("../Landingpage/src/images/about1.jpeg");
+  filter: brightness(50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.about-section2-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 35vw;
+  background-image: url("../Landingpage/src/images/about1.jpeg");
+  filter: brightness(50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about-section1-content {
+  margin: auto;
+  height: fit-content;
+  width: 75vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-section1-content-image {
+  background-image: url("../Landingpage/src/images/about1.jpeg");
+  z-index: +5;
+  height: 32vw;
+  width: 32vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  filter: brightness(200%);
+  border-radius: 0.2rem;
+}
+.about-section1-content-text {
+  width: 30vw;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.about-section1-content-text h1 {
+  align-self: flex-start;
+  white-space: nowrap;
+  font-size: 4.5rem;
+  color: #ffffff;
+  font-family: HelveticaNeue-Bold;
+  font-weight: 600;
+  font-stretch: wider;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.5px;
+}
+.about-section1-content-text h1 span {
+  color: red;
+}
+.about-section1-content-text p {
+  align-self: flex-end;
+  font-family: HelveticaNeue-Light;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
