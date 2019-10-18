@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Icon } from "antd";
 import "antd/dist/antd.css";
 import "./src/css/speaker.css";
-import Heading from './Heading';
+import Heading from "./Heading";
 import { speakers } from "./content";
 import Image from "./src/images/download.jpg";
 
@@ -19,7 +19,7 @@ export default class SpeakerIndex extends Component {
   left = n => {
     this.showSlides((slideIndex -= n));
   };
-  current = (n, e) => {
+  current = n => {
     this.showSlides((slideIndex = n));
   };
   next = n => {
@@ -38,10 +38,11 @@ export default class SpeakerIndex extends Component {
     if (slideIndex > slides.length) {
       slideIndex = 1;
     }
+    console.log(slideIndex);
     if (slideIndex < 1) {
-      slideIndex = slides.length - 1;
+      slideIndex = slides.length + 1;
     }
-
+    console.log(slideIndex);
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
@@ -58,20 +59,23 @@ export default class SpeakerIndex extends Component {
         ""
       );
     }
-    currentSpeakerName[n - 1].className += " active-text"; 
-    currentSpeaker[n - 1].className += " active";
     slides[slideIndex - 1].style.display = "block";
+    currentSpeaker[n - 1].className += " active";
+    currentSpeakerName[n - 1].className += " active-text";
   };
-  render() { 
+  render() {
     return (
       <div className="landing-speaker-parent">
         <div className="background"></div>
         <div className="landing-speaker-parent-header">
-          <div className="landing-speaker-parent-heading"><Heading text="SPEAKERS"/></div>
+          <div className="landing-speaker-parent-heading">
+            <Heading text="SPEAKERS" />
+          </div>
           <div className="landing-speaker-parent-header-content">
             {speakers.map(item => {
               return (
                 <div
+                  key={item.id}
                   onClick={() => {
                     this.current(item.id);
                   }}
@@ -100,7 +104,7 @@ export default class SpeakerIndex extends Component {
           <div className="slider">
             {speakers.map(item => {
               return (
-                <div className="slide fade">
+                <div key={item.id} className="slide fade">
                   <div className="slide-wrapper">
                     <div className="slide-image"></div>
                     <div className="slide-text">

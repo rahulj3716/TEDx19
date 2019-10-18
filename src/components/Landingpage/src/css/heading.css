@@ -1,31 +1,30 @@
-.Heading-Theme-text{
+.Heading-Theme-text {
   opacity: 0.8;
-  font-family: HelveticaNeue-Light;
+  font-family: HelveticaNeue-Bold;
   font-size: 40px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: 3.53px;
+  letter-spacing: 4.63px;
   text-align: left;
   color: #ffffff;
   z-index: 99;
-
 }
-.Heading-Theme-parent{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    width: fit-content;
+.Heading-Theme-parent {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: fit-content;
 }
-.heading-Image{
+.heading-Image {
   height: 50px;
   width: 50px;
-background:url('../images/heading.png');
-position: absolute;
-background-size: contain;
-background-repeat: no-repeat;
-background-position: right;
-right: -8px;
-top: -10px;
+  background: url("../images/heading.png");
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  right: -8px;
+  top: -10px;
 }
