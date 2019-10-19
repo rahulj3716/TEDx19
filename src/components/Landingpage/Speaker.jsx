@@ -15,6 +15,7 @@ export default class SpeakerIndex extends Component {
   }
   componentDidMount = () => {
     this.showSlides(slideIndex);
+   
   };
   left = n => {
     this.showSlides((slideIndex -= n));
@@ -35,14 +36,20 @@ export default class SpeakerIndex extends Component {
     var currentSpeakerName = document.getElementsByClassName(
       "landing-speaker-parent-header-content-speakers-h1"
     );
+    console.log(n,"n")
+    console.log(slideIndex,"slideindex")
     if (slideIndex > slides.length) {
       slideIndex = 1;
     }
-    console.log(slideIndex);
+    // console.log(slideIndex);
     if (slideIndex < 1) {
-      slideIndex = slides.length + 1;
+      slideIndex = slides.length;
     }
-    console.log(slideIndex);
+
+
+    console.log(n,"n")
+    console.log(slideIndex,"slideindex")  
+    console.log(slides.length,"slides.length");
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
@@ -60,8 +67,8 @@ export default class SpeakerIndex extends Component {
       );
     }
     slides[slideIndex - 1].style.display = "block";
-    currentSpeaker[n - 1].className += " active";
-    currentSpeakerName[n - 1].className += " active-text";
+    currentSpeaker[slideIndex - 1].className += " active";
+    currentSpeakerName[slideIndex - 1].className += " active-text";
   };
   render() {
     return (
