@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
+import Glimpses from "./Glimpses"
 import Footer from "../Landingpage/Footer";
-import "./index.css";
+import "./css/index.css";
 
 export default class AboutIndex extends Component {
   constructor(props) {
@@ -96,6 +97,7 @@ export default class AboutIndex extends Component {
             </div>
           </div>
         </section>
+        <Glimpses />
         <Footer />
       </div>
     );
