@@ -1,0 +1,63 @@
+.glimpses-parent{
+	margin: 8% 10% 5% 10%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: fit-content;
+}
+
+.glimpses-heading{
+	opacity: 0.8;
+	font-family: HelveticaNeue-regular;
+	font-size: 40px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 3.53px;
+	text-align: left;
+	z-index: 99;
+	color: #ffffff;
+
+}
+
+.glimpses-image{
+	height: 50px;
+	width: 50px;
+	background:url('../../Landingpage/src/images/heading.png');
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	right: -8px;
+	top: -10px;
+}
+
+.masonry { 
+	background-color: #988686;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0;
+	width: 100%;
+}
+
+.masonry-brick {
+	flex: auto;
+	height: 250px;
+	min-width: 150px;
+	margin: 0.5%;
+}
+
+/*.masonry-brick:nth-child(4n+1) {
+  height: 350px;
+}
+.masonry-brick:nth-child(4n+1):nth-child(4n+2) {
+  height: 225px;
+}
+.masonry-brick:nth-child(4n+1):nth-child(4n+3) {
+  height: 180px;
+}
+.masonry-brick:nth-child(4n+1):nth-child(4n+4) {
+  height: 380px;
+}
+*/

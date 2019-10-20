@@ -38,7 +38,7 @@
   left: 0rem;
   height: 100%;
   width: 35vw;
-  background-image: url("../Landingpage/src/images/about1.jpeg");
+  background-image: url("../../Landingpage/src/images/about1.jpeg");
   filter: brightness(50%);
   background-repeat: no-repeat;
   background-position: center;
@@ -51,7 +51,7 @@
   right: 0;
   height: 100%;
   width: 35vw;
-  background-image: url("../Landingpage/src/images/about1.jpeg");
+  background-image: url("../../Landingpage/src/images/about1.jpeg");
   filter: brightness(50%);
   background-repeat: no-repeat;
   background-position: center;
@@ -67,7 +67,7 @@
   align-items: center;
 }
 .about-section1-content-image {
-  background-image: url("../Landingpage/src/images/about1.jpeg");
+  background-image: url("../../Landingpage/src/images/about1.jpeg");
   z-index: +5;
   height: 32vw;
   width: 32vw;
