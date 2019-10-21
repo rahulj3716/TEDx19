@@ -58,13 +58,11 @@
   background-position: center;
 }
 .landing-speaker-parent-header-content h1 {
-  font-family: HelveticaNeue-Light;
+  font-family: HelveticaNeue-Regular;
   font-size: 1.5rem;
-  font-weight: 800;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: 0.1rem;
   color: #ffffff;
   text-transform: capitalize;
 }
@@ -133,10 +131,15 @@
   white-space: nowrap;
   font-size: 5rem;
   margin: 0;
+  <<<<<<<HEAD
   color: red;
   font-family: HelveticaNeue-Regular;
   font-weight: 600;
   font-stretch: wider;
+  =======color: #ffffff;
+  font-family: HelveticaNeue-Bold-Extd;
+  font-stretch: normal;
+  >>>>>>>ecb2180aea5b00a91d48f5aebf1354186ff2eac4
   font-style: normal;
   line-height: normal;
   letter-spacing: 1rem;
@@ -151,14 +154,12 @@
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: 0.1rem;
   color: #ffffff;
 }
 .slide-text p {
   margin-top: 9%;
   opacity: 0.8;
-  font-family: HelveticaNeue-Light;
-  font-weight: 900;
+  font-family: HelveticaNeue-Regular;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.75;
@@ -182,6 +183,7 @@
 }
 .active-text {
   color: red !important;
+  font-family: HelveticaNeue-Bold !important;
 }
 @keyframes fade {
   0% {
@@ -205,5 +207,87 @@
   z-index: +10;
 }
 
-@media only screen and (max: width:768px) {
+@media screen and (max-width: 1400px) {
+  .landing-speaker-parent {
+    margin: 7.5rem 0 0 0;
+    padding: 2.25rem 0 0 0;
+  }
+
+  .background {
+    width: 33.75rem;
+    top: 0rem;
+    left: 0rem;
+  }
+
+  .landing-speaker-parent-header {
+  }
+
+  .landing-speaker-parent-header-content {
+    padding-right: 11.62rem;
+  }
+  .landing-speaker-parent-header-content > div {
+    padding: 0 1.87rem;
+  }
+  .landing-speaker-parent-header-content-speakers {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  .landing-speaker-parent-header-content h1 {
+    font-size: 1.125rem;
+  }
+  .landing-speaker-content-parent {
+  }
+
+  .slide {
+  }
+  .slide-wrapper {
+  }
+  .slide-image {
+    height: 26.25rem;
+    width: 26.25rem;
+    border-radius: 0.15rem;
+  }
+  .slide-text {
+    height: 22.5rem;
+    width: 21rem;
+  }
+  .slide-text div {
+  }
+  .slide-text div h1:first-child {
+    transform: translateX(-1.5rem);
+  }
+  .slide-text h1 {
+    font-size: 5.85rem;
+  }
+  .slide-text h3 {
+    font-size: 1.5rem;
+  }
+  .slide-text p {
+    font-size: 0.9rem;
+  }
+  .fade {
+  }
+  .active {
+  }
+  .active-text {
+    color: red !important;
+  }
+  @keyframes fade {
+    0% {
+      opacity: 0.2;
+      transform: translateX(50vw);
+    }
+    70% {
+      opacity: 0.7;
+      transform: translateX(-10vw);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0vw);
+    }
+  }
+  .landing-speaker-content-icon svg {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
 }

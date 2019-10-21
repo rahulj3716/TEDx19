@@ -37,7 +37,7 @@
 .member-info-name {
 	text-align: center;
 	height: 21px;
-	font-family: "HelveticaNeue", "sans-serif";
+	font-family: "HelveticaNeue-BlackCondensed";
 	font-size: 18px;
 	font-weight: 900;
 	font-stretch: condensed;
@@ -51,7 +51,7 @@
 .member-info-position {
 	text-align: center;
 	height: 19px;
-	font-family: "HelveticaNeue", "sans-serif";
+	font-family: "HelveticaNeue-Medium";
 	font-size: 16px;
 	font-stretch: normal;
 	font-style: normal;
@@ -65,11 +65,9 @@
 	height: 48px;
 	padding: 0 5%;
 	opacity: 0.8;
-	font-family: "HelveticaNeue-regular";
+	font-family: "HelveticaNeue-Italic";
 	font-size: 16px;
-	font-weight: 900;
 	font-stretch: normal;
-	font-style: italic;
 	line-height: 1.5;
 	letter-spacing: 0.32px;
 	color: #ffffff;
@@ -78,7 +76,7 @@
 .member-info-quote span {
 	width: 12px;
 	height: 28px;
-	font-family: HelveticaNeue-regular;
+	font-family: HelveticaNeue-Bold;
 	font-size: 24px;
 	font-weight: bold;
 	font-stretch: normal;
@@ -86,5 +84,5 @@
 	line-height: normal;
 	letter-spacing: 0.32px;
 	text-align: center;
-clipolor: #ee3322;
+	color: #ee3322;
 }

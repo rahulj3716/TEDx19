@@ -28,3 +28,14 @@
   right: -8px;
   top: -10px;
 }
+
+
+@media screen and (max-width: 780px) {
+  .Heading-Theme-text {
+    font-size: 1.25rem;
+  }
+
+  .heading-Image {
+    height: 2rem;
+  }
+}
