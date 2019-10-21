@@ -7,10 +7,10 @@
   position: relative;
 }
 
-.background {
-  z-index: -100;
-  height: 100vh;
-  width: 45rem;
+.landing-speaker-parent-background {
+  z-index: -1;
+  height: 100%;
+  width: 40vw;
   position: absolute;
   top: 0rem;
   left: 0rem;
@@ -22,10 +22,8 @@
   background-size: cover;
 }
 .landing-speaker-parent-header {
-  margin: 0 auto;
-  width: 100%;
-  height: 20vh;
-  padding: 0 15.5rem 0 10rem;
+  padding: 0 18rem 0 10rem;
+  height: 11vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,27 +31,28 @@
 }
 .landing-speaker-parent-header-content {
   width: fit-content;
-  /* padding-right: 15.5rem; */
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 .landing-speaker-parent-header-content > div {
   cursor: pointer;
   height: 80%;
-  padding: 0 2.5rem;
+  padding: 0 2vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
+.landing-speaker-parent-header-content > div:last-child {
+  padding: 0 0 0 2vw;
+}
 .landing-speaker-parent-header-content-speakers {
-  height: 6rem;
-  width: 6rem;
-  border-radius: 50%;
+  height: 5.5vw;
+  width: 5.5vw;
   background-size: 100% 110%;
   background-repeat: no-repeat;
   background-position: center;
@@ -68,16 +67,15 @@
   text-transform: capitalize;
 }
 .landing-speaker-content-parent {
+  padding: 2rem 11rem 2rem 2.5rem;
   height: 75vh;
-  width: 90%;
-  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 .slider {
-  width: 95%;
+  width: 85%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -94,16 +92,16 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
+
 .slide-image {
   background-image: url(../images/download.jpg);
-  filter: grayscale(100%);
   z-index: +5;
-  height: 35rem;
-  width: 35rem;
+  height: 100%;
+  width: 50%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -111,56 +109,64 @@
   border-radius: 0.2rem;
 }
 .slide-text {
-  height: 30rem;
-  width: 28rem;
+  height: 100%;
+  width: 50%;
+  padding: 0 0 0 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-between; */
   align-items: flex-end;
+  position: relative;
 }
 .slide-text div {
+  position: absolute;
+  z-index: +6;
+  top: 15.2%;
+  left: -8%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.slide-text div h1:first-child {
-  transform: translateX(-2rem);
-}
 .slide-text h1 {
-  z-index: +50;
   white-space: nowrap;
-  font-size: 7.8rem;
-  z-index: 444;
+  font-size: 5rem;
   margin: 0;
-  color: #ffffff;
+  <<<<<<<HEAD
+  color: red;
+  font-family: HelveticaNeue-Regular;
+  font-weight: 600;
+  font-stretch: wider;
+  =======color: #ffffff;
   font-family: HelveticaNeue-Bold-Extd;
   font-stretch: normal;
+  >>>>>>>ecb2180aea5b00a91d48f5aebf1354186ff2eac4
   font-style: normal;
   line-height: normal;
-  letter-spacing: 5.5px;
+  letter-spacing: 1rem;
   text-transform: uppercase;
 }
 .slide-text h3 {
-  margin: 0;
+  align-self: flex-end;
+  margin-top: 35.4%;
   font-size: 2rem;
-  font-family: HelveticaNeue-Bold;
-  font-weight: 300;
+  font-family: HelveticaNeue-Regular;
+  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   color: #ffffff;
 }
 .slide-text p {
-  margin: 0;
+  margin-top: 9%;
   opacity: 0.8;
   font-family: HelveticaNeue-Regular;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.75;
   letter-spacing: normal;
-  text-align: justify;
   color: #ffffff;
   font-size: 1.2rem;
+  text-align: justify;
 }
 .fade {
   animation-name: fade;
@@ -168,12 +174,16 @@
   animation-timing-function: ease-in-out;
 }
 .active {
-  box-shadow: 0 0 10px red;
+  height: 5.5vw;
+  width: 5.5vw;
+  background-size: 90% 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid red;
 }
 .active-text {
   color: red !important;
   font-family: HelveticaNeue-Bold !important;
-
 }
 @keyframes fade {
   0% {
@@ -197,8 +207,6 @@
   z-index: +10;
 }
 
-
-
 @media screen and (max-width: 1400px) {
   .landing-speaker-parent {
     margin: 7.5rem 0 0 0;
@@ -210,7 +218,7 @@
     top: 0rem;
     left: 0rem;
   }
-  
+
   .landing-speaker-parent-header {
   }
 
