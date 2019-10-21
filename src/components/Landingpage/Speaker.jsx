@@ -15,7 +15,6 @@ export default class SpeakerIndex extends Component {
   }
   componentDidMount = () => {
     this.showSlides(slideIndex);
-   
   };
   left = n => {
     this.showSlides((slideIndex -= n));
@@ -36,8 +35,8 @@ export default class SpeakerIndex extends Component {
     var currentSpeakerName = document.getElementsByClassName(
       "landing-speaker-parent-header-content-speakers-h1"
     );
-    console.log(n,"n")
-    console.log(slideIndex,"slideindex")
+    console.log(n, "n");
+    console.log(slideIndex, "slideindex");
     if (slideIndex > slides.length) {
       slideIndex = 1;
     }
@@ -46,10 +45,9 @@ export default class SpeakerIndex extends Component {
       slideIndex = slides.length;
     }
 
-
-    console.log(n,"n")
-    console.log(slideIndex,"slideindex")  
-    console.log(slides.length,"slides.length");
+    console.log(n, "n");
+    console.log(slideIndex, "slideindex");
+    console.log(slides.length, "slides.length");
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
@@ -73,7 +71,7 @@ export default class SpeakerIndex extends Component {
   render() {
     return (
       <div className="landing-speaker-parent">
-        <div className="background"></div>
+        <div className="landing-speaker-parent-background"></div>
         <div className="landing-speaker-parent-header">
           <div className="landing-speaker-parent-heading">
             <Heading text="SPEAKERS" />
@@ -116,7 +114,9 @@ export default class SpeakerIndex extends Component {
                     <div className="slide-image"></div>
                     <div className="slide-text">
                       <div>
-                        <h1 style={{ color: "red" }}>{item.firstName}</h1>
+                        <h1 style={{ color: "white" }}>
+                          {item.firstName}&nbsp;
+                        </h1>
                         <h1>{item.lastName}</h1>
                       </div>
                       <h3>{item.designation}</h3>
