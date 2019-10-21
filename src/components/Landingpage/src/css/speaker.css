@@ -59,13 +59,11 @@
   background-position: center;
 }
 .landing-speaker-parent-header-content h1 {
-  font-family: HelveticaNeue-Light;
+  font-family: HelveticaNeue-Regular;
   font-size: 1.5rem;
-  font-weight: 800;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: 0.1rem;
   color: #ffffff;
   text-transform: capitalize;
 }
@@ -135,9 +133,8 @@
   z-index: 444;
   margin: 0;
   color: #ffffff;
-  font-family: HelveticaNeue-Bold;
-  font-weight: 400;
-  font-stretch: wider;
+  font-family: HelveticaNeue-Bold-Extd;
+  font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: 5.5px;
@@ -151,14 +148,12 @@
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: 0.1rem;
   color: #ffffff;
 }
 .slide-text p {
   margin: 0;
   opacity: 0.8;
-  font-family: HelveticaNeue-Light;
-  font-weight: 900;
+  font-family: HelveticaNeue-Regular;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.75;
@@ -177,6 +172,8 @@
 }
 .active-text {
   color: red !important;
+  font-family: HelveticaNeue-Bold !important;
+
 }
 @keyframes fade {
   0% {
@@ -229,7 +226,6 @@
   }
   .landing-speaker-parent-header-content h1 {
     font-size: 1.125rem;
-    letter-spacing: 0.075rem;
   }
   .landing-speaker-content-parent {
   }
@@ -257,7 +253,6 @@
   }
   .slide-text h3 {
     font-size: 1.5rem;
-    letter-spacing: 0.075rem;
   }
   .slide-text p {
     font-size: 0.9rem;

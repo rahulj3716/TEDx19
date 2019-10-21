@@ -2,7 +2,7 @@
 @font-face {
         font-family: "HelveticaNeue-Regular";
         
-        src:url('./fonts/HelveticaNeue-Regular.otf')  format('truetype');
+        src:url('./fonts/HelveticaNeue-Regular.ttf')  format('truetype');
     
         }
 @font-face {
@@ -15,7 +15,31 @@
 @font-face {
         font-family: "HelveticaNeue-Bold";
         
-        src:url('./fonts/HelveticaNeue-Bold.otf')  format('truetype');
+        src:url('./fonts/HelveticaNeue-Bold.ttf')  format('truetype');
+    
+        }
+@font-face {
+        font-family: "HelveticaNeue-Italic";
+        
+        src:url('./fonts/HelveticaNeue-Italic.ttf')  format('truetype');
+    
+        }
+@font-face {
+        font-family: "HelveticaNeue-Bold-Extd";
+        
+        src:url('./fonts/HelveticaNeue-LTStd-BdEx.otf')  format('truetype');
+    
+        }
+@font-face {
+        font-family: "HelveticaNeue-Medium";
+        
+        src:url('./fonts/HelveticaNeue-Medium.ttf')  format('truetype');
+    
+        }
+@font-face {
+        font-family: "HelveticaNeue-BlackCondensed";
+        
+        src:url('./fonts/HelveticaNeue-BlackCond.otf')  format('truetype');
     
         }
 
