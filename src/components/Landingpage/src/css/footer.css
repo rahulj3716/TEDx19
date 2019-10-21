@@ -54,7 +54,7 @@
 
 .footer-links li {
 	list-style-type: none;
-	width: 50%;
+	width: 20%;
 	line-height: 3em;
 	font-family: HelveticaNeue-Bold;
 	font-size: 0.9375rem;
@@ -88,5 +88,50 @@ Link {
 		line-height: 2.25rem;
 		font-size: 0.7031rem;
 		letter-spacing: 0.1rem; 
+	}
+}
+
+
+@media screen and (max-width: 780px) {
+	.landing-footer-childl {
+		padding-left: 13%;
+		width: 85%;
+	}
+
+	.landing-footer-childr {
+		margin: 0;
+		width: 100%;
+	}
+
+	.landing-footer-childl-heading{
+		padding-top: 5%;
+		font-size: 1.25rem;
+	}
+
+	.landing-footer-childl-content{
+		padding: 4%;
+		width: 100%;
+		font-size: 0.8rem;
+		line-height: 1rem;
+	}
+
+	.footer-links li {
+		text-align: center;
+		width: 33.3%;
+		line-height: 1.75rem;
+		font-size: 0.5rem;
+		letter-spacing: 0.075rem; 
+	}
+
+	.landing-footer-parent {
+		display: block;
+	}
+
+	.footer-links {
+		margin: 10%;
+		padding: 0 0 5% 0;		
+	}
+
+	.landing-footer-childr {
 	}
 }
