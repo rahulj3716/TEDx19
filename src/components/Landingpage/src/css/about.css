@@ -49,13 +49,33 @@ border:2px solid orange;
     border: solid 1px #ee3322;
     background: none;
     font-family: HelveticaNeue-light;
-  font-size: 18px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ee3322;
-  margin-top: 5rem;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ee3322;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .landing-about-img-parent-content {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 70%;
+    background-size: 100%;
+  }
+
+  .landing-about-parent-heading {
+    font-size: 0.75rem;
+  }
+
+  .landing-about-button {
+    margin: 10%;
+    width: 50%;
+    font-size: 0.75rem;
+  }
 }
