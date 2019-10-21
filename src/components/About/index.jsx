@@ -13,14 +13,14 @@ export default class AboutIndex extends Component {
   render() {
     return (
       <div className="about-page">
-        <nav
+        {/* <nav
           id="about-page-navbar"
           style={{
             backgroundImage:
               "linear-gradient(to right, #1e1e26, #291e24 57%, #341f21)"
           }}
-        >
-          <div className="about-page-heading">
+        > */}
+          {/* <div className="about-page-heading">
             <p>
               <span className="ted">
                 TED<sup>x</sup>
@@ -28,9 +28,9 @@ export default class AboutIndex extends Component {
 
               <span className="iitr"> &nbsp;IITRoorkee</span>
             </p>
-          </div>
+          </div> */}
           <Navbar />
-        </nav>
+        {/* </nav> */}
         <section className="about-section1">
           <div className="about-section1-background"></div>
           <div className="about-section1-content">
