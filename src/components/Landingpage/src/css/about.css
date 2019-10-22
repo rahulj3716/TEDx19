@@ -18,15 +18,15 @@
     background-size: 30%;
 }
 .landing-about-img-parent2{
-display: flex;
-height: 15rem;
-border:2px solid blue;
+  display: flex;
+  height: 15rem;
+  border:2px solid blue;
 
-}
-.landing-about-img-parent2-child{
-width: 25%;
-height: 15rem;
-border:2px solid orange;
+  }
+  .landing-about-img-parent2-child{
+  width: 25%;
+  height: 15rem;
+  border:2px solid orange;
 
 }
 
@@ -79,3 +79,4 @@ border:2px solid orange;
     font-size: 0.75rem;
   }
 }
+
