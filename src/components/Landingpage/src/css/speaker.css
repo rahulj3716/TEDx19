@@ -99,7 +99,7 @@
 .slide-image {
   background-image: url(../images/download.jpg);
   z-index: +5;
-  height: 100%;
+  height: 95%;
   width: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -119,7 +119,7 @@
 .slide-text div {
   position: absolute;
   z-index: +6;
-  top: 15.2%;
+  top: 13.2%;
   left: -8%;
   display: flex;
   flex-direction: row;
@@ -127,7 +127,7 @@
 }
 .slide-text h1 {
   white-space: nowrap;
-  font-size: 5rem;
+  font-size: 5.2rem;
   margin: 0;
   color: red;
   font-stretch: wider;
@@ -135,12 +135,12 @@
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: 1rem;
+  letter-spacing: 0.8rem;
   text-transform: uppercase;
 }
 .slide-text h3 {
   align-self: flex-end;
-  margin-top: 35.4%;
+  margin-top: 30.4%;
   font-size: 2rem;
   font-family: HelveticaNeue-Regular;
   font-weight: 500;
@@ -198,24 +198,64 @@
   cursor: pointer;
   z-index: +10;
 }
-
+@media screen and (max-width: 1500px) {
+  .landing-speaker-parent-header-content > div {
+    padding: 0 0.7rem;
+  }
+  .landing-speaker-parent-header-content > div:last-child {
+    padding: 0 0.7rem;
+  }
+  .landing-speaker-parent-header-content h1 {
+    font-size: 1.1rem;
+  }
+  .slider {
+    padding: 0 2.5%;
+  }
+  .slide-image {
+    height: 75%;
+  }
+  .slide-text {
+    padding: 0 0 0 2rem;
+  }
+  .slide-text div {
+    position: absolute;
+    z-index: +6;
+    top: 0;
+    left: -8%;
+  }
+  .slide-text h1 {
+    white-space: nowrap;
+    font-size: 3.3rem;
+    letter-spacing: 0.3rem;
+  }
+  .slide-text h3 {
+    align-self: flex-end;
+    margin-top: 20.4%;
+    font-size: 1.5rem;
+  }
+  .slide-text p {
+    margin-top: 5%;
+    line-height: 1.4;
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
 @media screen and (max-width: 1024px) {
   .landing-speaker-parent {
     margin: 7.5rem 0 0 0;
     padding: 2.25rem 0 0 0;
   }
 
-  .background {
+  .landing-speaker-parent-background {
     width: 50vw;
     top: 0rem;
     left: 0rem;
   }
-
   .landing-speaker-parent-header {
     padding: 0 13.5rem 0 7.5rem;
   }
   .landing-speaker-parent-header-content {
-    justify-content: flex-start;
+    justify-content: center;
   }
   .landing-speaker-parent-header-content > div {
     padding: 0 1rem;
@@ -232,6 +272,7 @@
   }
   .landing-speaker-content-parent {
     padding: 0 13.5rem 0 7.5rem;
+    justify-content: center;
   }
   .slide-image {
     height: 26.25rem;
@@ -254,8 +295,8 @@
   .slide-text div h1:first-child {
     transform: translateX(0);
   }
-  .slide-text h1 {
-    font-size: 2.45rem;
+  .slide-text div h1 {
+    font-size: 2.65rem;
     letter-spacing: 0.2rem;
   }
   .slide-text h3 {
@@ -303,6 +344,7 @@
   }
   .landing-speaker-parent-header-content {
     padding: 12.5% 0 0 0;
+    justify-content: center;
   }
   .landing-speaker-parent-header-content > div {
     padding: 0 2%;
@@ -313,6 +355,7 @@
   .landing-speaker-content-parent {
     padding: 0 13.9% 0 13.9%;
     min-height: 80vh;
+    justify-content: center;
   }
   .slide-wrapper {
     height: 100%;
@@ -327,6 +370,7 @@
     height: 47%;
   }
   .slide-text {
+    margin-top: 1rem;
     width: 100%;
     height: fit-content;
     padding: 0;
@@ -364,10 +408,5 @@
   }
   .landing-speaker-parent-background {
     width: 50vw;
-  }
-}
-@media screen and (max-width: 450px) {
-  .landing-speaker-content-parent {
-    padding: 0 2% 0 2%;
   }
 }
