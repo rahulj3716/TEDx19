@@ -200,7 +200,7 @@
 }
 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 550px) {
   .about-section1-content-image {
     display: none;
   }

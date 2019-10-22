@@ -34,7 +34,7 @@
 	font-size: 1.25rem;
 	font-stretch: normal;
 	font-style: normal;
-	line-height: 1.5rem;
+	line-height: 1.7rem;
 
 	letter-spacing: normal;
 	text-align: justify;
@@ -107,8 +107,9 @@ Link {
 
 @media screen and (max-width: 780px) {
 	.landing-footer-childl {
-		padding-left: 13%;
-		width: 85%;
+		margin: 0;
+    width: fit-content;
+		
 	}
 
 	.landing-footer-childr {
@@ -118,14 +119,15 @@ Link {
 	}
 
 	.landing-footer-childl-heading{
-		padding-top: 5%;
+		padding-top: 0;
 		font-size: 1.25rem;
+		margin: 10%;
 	}
 
 	.landing-footer-childl-content{
-		margin: 0 0 -10% 0;
-		padding: 4%;
-		width: 100%;
+		
+		width: fit-content;
+		margin: 0 15%;
 		font-size: 0.8rem;
 		line-height: 1rem;
 	}
@@ -140,10 +142,12 @@ Link {
 
 	.landing-footer-parent {
 		display: block;
+		padding: 2% 5% 5% 5%;
 	}
 
 	.footer-links {
 		margin: 10%;
+		margin-bottom: 0;
 		padding: 0 0 5% 0;		
 	}
 
