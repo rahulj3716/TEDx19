@@ -27,6 +27,7 @@ export default class Navbar extends Component {
         });
     }
     componentDidMount() {
+        console.log(this.state.navdisplay,"navdisplay")
         if (window.innerWidth >= 768) {
             this.setState(
                 {
