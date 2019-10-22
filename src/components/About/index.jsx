@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
-import Glimpses from "./Glimpses"
+import Glimpses from "./Glimpses";
 import Footer from "../Landingpage/Footer";
 import "./css/index.css";
 
@@ -20,7 +20,7 @@ export default class AboutIndex extends Component {
               "linear-gradient(to right, #1e1e26, #291e24 57%, #341f21)"
           }}
         > */}
-          {/* <div className="about-page-heading">
+        {/* <div className="about-page-heading">
             <p>
               <span className="ted">
                 TED<sup>x</sup>
@@ -29,7 +29,7 @@ export default class AboutIndex extends Component {
               <span className="iitr"> &nbsp;IITRoorkee</span>
             </p>
           </div> */}
-          <Navbar />
+        <Navbar />
         {/* </nav> */}
         <section className="about-section1">
           <div className="about-section1-background"></div>
@@ -40,15 +40,12 @@ export default class AboutIndex extends Component {
                 What is <span>TED</span>?
               </h1>
               <p>
-                TED is a nonprofit organization devoted to Ideas Worth
-                Spreading. Started as a four-day conference in California 30
-                years ago, TED has grown to support its mission with multiple
-                initiatives. The two annual TED Conferences invite the world's
-                leading thinkers and doers to speak for 18 minutes or less. Many
-                of these talks are then made available, free, at TED.com. TED
-                speakers have included Bill Gates, Jane Goodall, Elizabeth
-                Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck,
-                Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
+                TED is a global community, welcoming people from every
+                discipline and culture who seek a deeper understanding of the
+                world. The primary belief lies in the power of ideas to change
+                attitudes, lives and, ultimately, the world. TED is owned by a
+                nonprofit, nonpartisan foundation and the main agenda is to make
+                great ideas accessible and spark conversation.
               </p>
             </div>
           </div>
@@ -61,15 +58,12 @@ export default class AboutIndex extends Component {
                 What is <span>TEDx</span>?
               </h1>
               <p style={{ alignSelf: "flex-start" }}>
-                TED is a nonprofit organization devoted to Ideas Worth
-                Spreading. Started as a four-day conference in California 30
-                years ago, TED has grown to support its mission with multiple
-                initiatives. The two annual TED Conferences invite the world's
-                leading thinkers and doers to speak for 18 minutes or less. Many
-                of these talks are then made available, free, at TED.com. TED
-                speakers have included Bill Gates, Jane Goodall, Elizabeth
-                Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck,
-                Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
+                TEDx brings the spirit of TED’s mission of ideas worth spreading
+                to local communities around the globe. TEDx events are organized
+                by curious individuals who seek to discover ideas and spark
+                conversations in their own community. TEDx events include live
+                speakers and recorded TED Talks, and are organized independently
+                under a free license granted by TED.
               </p>
             </div>
             <div className="about-section1-content-image"></div>
@@ -81,18 +75,18 @@ export default class AboutIndex extends Component {
             <div className="about-section1-content-image"></div>
             <div className="about-section1-content-text">
               <h1>
-                What is <span>TED</span>?
+                What is <span>TEDx</span>?
               </h1>
               <p>
-                TED is a nonprofit organization devoted to Ideas Worth
-                Spreading. Started as a four-day conference in California 30
-                years ago, TED has grown to support its mission with multiple
-                initiatives. The two annual TED Conferences invite the world's
-                leading thinkers and doers to speak for 18 minutes or less. Many
-                of these talks are then made available, free, at TED.com. TED
-                speakers have included Bill Gates, Jane Goodall, Elizabeth
-                Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck,
-                Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
+                Team TEDxIITRoorkee has been conducting TED Talks in the campus
+                for the past few years with the aim to inspire, motivate and
+                provide a new outlook in life. We, here at IIT Roorkee,
+                celebrate those who have questioned the current norms and
+                excelled extraordinarily. We started our journey in 2012 and are
+                setting new benchmarks every year. Our aim is to bring together
+                a diverse group of speakers who can share their thoughts,
+                insights, and experiences and enlighten the audience by their
+                presence
               </p>
             </div>
           </div>
