@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import "./src/css/theme.css";
 import Heading from "./Heading";
 export default class ThemeIndex extends Component {
+
   constructor(props) {
     super(props);
     this.state = {};
   }
+
 
   render() {
     return (

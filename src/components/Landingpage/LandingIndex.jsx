@@ -22,7 +22,6 @@ export default class AboutusIndex extends Component {
         }}
       >
         <section id="landing-page-navbar">
-          {" "}
           <Navbar />
         </section>
         <section>
