@@ -19,7 +19,7 @@
     box-shadow: 0px 9px 15px -10px rgba(155,155,155,1);
 }
 .scroll .ecell-navbar-int-ctos ul li a{
-    color:#616568;
+    color: #ffffff;
     transition: all 0.3s ease-in-out;
 }
 
@@ -150,10 +150,8 @@
 .ecell-navbar-int-ctos ul li a{
     text-decoration: none;
     font-family: HelveticaNeue-Regular;
-    font-weight: 600;
-    font-size: 14px;
+    font-size: 1rem;
     color: #fff;
-    letter-spacing: .1rem;
     transition: all 0.3s ease-in-out;
     padding-left:2px;
     padding-right:2px; 

@@ -90,7 +90,7 @@
   white-space: nowrap;
   font-size: 4.5rem;
   color: #ffffff;
-  font-family: HelveticaNeue-Bold;
+  font-family: HelveticaNeue-Bold-Extd;
   font-weight: 600;
   font-stretch: wider;
   font-style: normal;
@@ -102,7 +102,7 @@
 }
 .about-section1-content-text p {
   align-self: flex-end;
-  font-family: HelveticaNeue-Light;
+  font-family: HelveticaNeue-Regular;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;

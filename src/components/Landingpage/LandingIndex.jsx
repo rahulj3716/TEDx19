@@ -19,7 +19,7 @@ export default class AboutusIndex extends Component {
                 <section id="landing-page-navbar"> <Navbar /></section>
                 <section ><div><About /></div></section>
                 <section><div><Theme /></div></section>
-                {/*<section><div><Speaker /></div></section>*/}
+                <section><div><Speaker /></div></section>
                 <section><div><Footer /></div></section>
             </div>
 
